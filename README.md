@@ -27,7 +27,7 @@ To get a local copy of the project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY](https://github.com/CoderDebajyoti/Contact-Us).git
     ```
 2. Navigate to the project directory:
     ```sh
