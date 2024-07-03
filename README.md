@@ -6,7 +6,6 @@ This repository contains the HTML code for the "Contact Me" tab of my portfolio 
 
 - [Demo](#demo)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -21,18 +20,6 @@ You can view a live demo of the contact form [here](#).
 - User-friendly form inputs
 - Basic form validation
 
-## Installation
-
-To get a local copy of the project, follow these steps:
-
-1. Clone the repository:
-    ```sh
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY](https://github.com/CoderDebajyoti/Contact-Us).git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd YOUR_REPOSITORY
-    ```
 
 ## Usage
 
