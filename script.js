@@ -38,7 +38,7 @@ function sendMail() {
         email: document.querySelector('input[name="email"]').value,
         description: document.querySelector('textarea[name="message"]').value,
     };
-
+    
     // Disable the send button to prevent multiple submissions
     const sendButton = document.querySelector('.button--primary');
     sendButton.disabled = true;
