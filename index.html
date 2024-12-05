@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <!-- Link to your CSS -->
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="email.js" defer></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "6c6xqC3eBlUYXOnRA",
-      });
-   })();
-</script>
+    <!-- Include EmailJS library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Link to your script.js -->
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="modal">
+            <!-- Modal Header -->
             <div class="modal__header">
                 <span class="modal__title">Contact Us</span>
                 <button title="close" class="button button--icon">
@@ -30,22 +24,46 @@
                     </svg>
                 </button>
             </div>
+            <!-- Modal Body -->
             <div class="modal__body">
                 <form onsubmit="sendMail(); return false;">
+                    <!-- Full Name Input -->
                     <div class="input">
                         <label class="input__label">Full Name</label>
-                        <input title="name" class="input__field" type="text" name="full-name">
-                        <br>
-                        <label class="input__label">Email</label>
-                        <input title="email" class="input__field" type="text" name="email">
+                        <input 
+                            class="input__field" 
+                            type="text" 
+                            name="full-name" 
+                            placeholder="Enter your full name">
                     </div>
+                    <!-- Email Input -->
+                    <div class="input">
+                        <label class="input__label">Email</label>
+                        <input 
+                            class="input__field" 
+                            type="email" 
+                            name="email" 
+                            placeholder="Enter your email">
+                    </div>
+                    <!-- Message Input -->
                     <div class="input">
                         <label class="input__label">Description</label>
-                        <textarea title="msg" class="input__field input__field--textarea" name="message"></textarea>
-                        <p class="input__description">Thank you for contacting us. Our team will reach out to you shortly.</p>
+                        <textarea 
+                            class="input__field input__field--textarea" 
+                            name="message" 
+                            placeholder="Write your message here"></textarea>
                     </div>
+                    <!-- Success Message -->
+                    <p class="input__description">
+                        Thank you for contacting us. Our team will reach out to you shortly.
+                    </p>
+                    <!-- Submit Button -->
                     <div class="modal__footer">
-                        <button class="button button--primary" type="submit" onclick="sendMail()">Send</button>
+                        <button 
+                            class="button button--primary" 
+                            type="submit">
+                            Send
+                        </button>
                     </div>
                 </form>
             </div>
