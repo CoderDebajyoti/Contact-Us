@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="email.js" defer></script>
+    <!-- <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script> -->
 </head>
 <body>
     <div class="container">
@@ -31,11 +41,11 @@
                     </div>
                     <div class="input">
                         <label class="input__label">Description</label>
-                        <textarea title="msg" class="input__field input__field--textarea" name="description"></textarea>
+                        <textarea title="msg" class="input__field input__field--textarea" name="message"></textarea>
                         <p class="input__description">Thank you for contacting us. Our team will reach out to you shortly.</p>
                     </div>
                     <div class="modal__footer">
-                        <button class="button button--primary" type="submit">Send</button>
+                        <button class="button button--primary" type="submit" onclick="sendMail()">Send</button>
                     </div>
                 </form>
             </div>
