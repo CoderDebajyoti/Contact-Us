@@ -36,7 +36,7 @@ function sendMail() {
     const templateParams = {
         name: document.querySelector('input[name="full-name"]').value,
         email: document.querySelector('input[name="email"]').value,
-        description: document.querySelector('textarea[name="message"]').value,
+        message: document.querySelector('textarea[name="message"]').value,
     };
     
     // Disable the send button to prevent multiple submissions
