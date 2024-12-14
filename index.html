@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <!-- Link to your script.js -->
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <div class="container">
         <div class="modal">
@@ -20,7 +22,9 @@
                 <button title="close" class="button button--icon">
                     <svg width="24" viewBox="0 0 24 24" height="24" xmlns="http://www.w3.org/2000/svg">
                         <path fill="none" d="M0 0h24v24H0V0z"></path>
-                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path>
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z">
+                        </path>
                     </svg>
                 </button>
             </div>
@@ -30,27 +34,17 @@
                     <!-- Full Name Input -->
                     <div class="input">
                         <label class="input__label">Full Name</label>
-                        <input 
-                            class="input__field" 
-                            type="text" 
-                            name="full-name" 
-                            placeholder="Enter your full name">
+                        <input class="input__field" type="text" name="full-name" placeholder="Enter your full name">
                     </div>
                     <!-- Email Input -->
                     <div class="input">
                         <label class="input__label">Email</label>
-                        <input 
-                            class="input__field" 
-                            type="email" 
-                            name="email" 
-                            placeholder="Enter your email">
+                        <input class="input__field" type="email" name="email" placeholder="Enter your email">
                     </div>
                     <!-- Message Input -->
                     <div class="input">
                         <label class="input__label">Description</label>
-                        <textarea 
-                            class="input__field input__field--textarea" 
-                            name="message" 
+                        <textarea class="input__field input__field--textarea" name="message"
                             placeholder="Write your message here"></textarea>
                     </div>
                     <!-- Success Message -->
@@ -59,9 +53,7 @@
                     </p>
                     <!-- Submit Button -->
                     <div class="modal__footer">
-                        <button 
-                            class="button button--primary" 
-                            type="submit">
+                        <button class="button button--primary" type="submit">
                             Send
                         </button>
                     </div>
@@ -70,4 +62,5 @@
         </div>
     </div>
 </body>
+
 </html>
