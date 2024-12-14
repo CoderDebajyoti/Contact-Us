@@ -1,45 +1,34 @@
-# Portfolio Contact Me Page
+Here's an updated README for your **Contact Us** project, incorporating EmailJS details:
 
-This repository contains the HTML code for the "Contact Me" tab of my portfolio page. The form allows visitors to fill in their name, email, and message to contact me directly.
+---
 
-## Table of Contents
+# Contact Us
 
-- [Demo](#demo)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Demo
-
-You can view a live demo of the contact form [here](#).
+A fully functional "Contact Us" web page designed with HTML, CSS, and integrated with **EmailJS** for backend functionality. Users can submit their queries, and the page sends their details directly to an email using the EmailJS API.
 
 ## Features
 
-- Responsive design
-- User-friendly form inputs
-- Basic form validation
+- **Responsive Design**: Works seamlessly across devices.  
+- **EmailJS Integration**: Automatically delivers form submissions to a designated email without requiring a server.  
+- **Customizable**: Easily adaptable for various projects.
 
+## How to Use
 
-## Usage
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/CoderDebajyoti/Contact-Us.git
+   ```
+2. Configure **EmailJS**:  
+   - Create an account on [EmailJS](https://www.emailjs.com/).  
+   - Obtain your **Service ID**, **Template ID**, and **Public Key**.  
+   - Replace placeholders in the script with your EmailJS credentials.
 
-To use this contact form on your own website:
+3. Open `index.html` in a browser to access the form.
 
-1. Copy the HTML code from the `index.html` file.
-2. Replace the `YOUR_BACKEND_URL` in the form action attribute with your backend URL where you want to handle form submissions.
-3. Deploy the HTML file to your web server or hosting provider.
+## Dependencies
 
-## Contributing
+- **EmailJS**: Enables seamless email sending from the frontend.
 
-Contributions are what make the open-source community such an amazing place to be, learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
