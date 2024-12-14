@@ -1,5 +1,3 @@
-
-
 # Contact Us
 
 A fully functional "Contact Us" web page designed with HTML, CSS, and integrated with **EmailJS** for backend functionality. Users can submit their queries, and the page sends their details directly to an email using the EmailJS API.
