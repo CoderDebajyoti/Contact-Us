@@ -18,6 +18,16 @@ A fully functional "Contact Us" web page designed with HTML, CSS, and integrated
    - Create an account on [EmailJS](https://www.emailjs.com/).  
    - Obtain your **Service ID**, **Template ID**, and **Public Key**.  
    - Replace placeholders in the script with your EmailJS credentials.
+   
+## EmailJS  
+
+This JavaScript code integrates **EmailJS** for sending email messages directly from a contact form. It includes:  
+
+1. **EmailJS Initialization**: The user ID is configured to enable service use.  
+2. **Form Validation**: Ensures that all fields are filled and validates the email format.  
+3. **Email Sending**: Gathers form data and sends an email via EmailJS using a service ID and template ID.  
+
+It also includes safeguards like disabling the "Send" button during email processing and error handling for user feedback.
 
 3. Open `index.html` in a browser to access the form.
 
