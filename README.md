@@ -1,6 +1,4 @@
-Here's an updated README for your **Contact Us** project, incorporating EmailJS details:
 
----
 
 # Contact Us
 
