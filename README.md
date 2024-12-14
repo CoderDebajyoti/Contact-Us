@@ -18,7 +18,8 @@ A fully functional "Contact Us" web page designed with HTML, CSS, and integrated
    - Create an account on [EmailJS](https://www.emailjs.com/).  
    - Obtain your **Service ID**, **Template ID**, and **Public Key**.  
    - Replace placeholders in the script with your EmailJS credentials.
-   
+3. Open `index.html` in a browser to access the form.
+
 ## EmailJS  
 
 This JavaScript code integrates **EmailJS** for sending email messages directly from a contact form. It includes:  
