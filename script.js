@@ -22,7 +22,7 @@ function validateForm() {
         return false;
     }
 
-    return true;
+    return true; // Form is valid
 }
 
 // Function to send email
